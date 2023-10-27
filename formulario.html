@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c46e2ab208.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="formulario.css">
+  <title>Formulário</title>
+</head>
+<body>
+  <header id="inicio">
+    <span>ADA PIZZA</span>
+    <nav>
+      <a href="./index.html">Início</a>
+      <a href="./index.html">Menu</a>
+      <a href="./index.html">Tabela</a>
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <a href="./formulario.html">Cadastrar</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Feedback</h2>
+    <form method="post" action="https://652d071ef9afa8ef4b26a631.mockapi.io/posts" target="_blank">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required placeholder="Digite seu nome:">
+
+      <label for="city">Cidade:</label>
+      <input type="text" id="city" name="city" required placeholder="Digite sua Cidade:">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Digite seu Email:">
+
+      <label for="age">Idade:</label>
+      <input type="number" id="age" name="age" required placeholder="Digite sua Idade:">
+
+      <label for="hobby">Feedback:</label>
+      <textarea id="hobby" name="hobby"></textarea>
+
+      <label for="submit" id="submit"></label>
+      <input type="submit" value="Enviar" class="botao">
+    </form>
+  </main>
+  <footer>
+    <p>Desenvolvido com amor pelo grupo 5 - Ada techo & IFood</p>
+  </footer>
+</body>
+</html>
