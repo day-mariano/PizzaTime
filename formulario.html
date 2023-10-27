@@ -3,42 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/c46e2ab208.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="formulario.css">
   <title>Formulário</title>
 </head>
 <body>
   <header id="inicio">
-    <span>ADA PIZZA</span>
+    <img src="img/logopizzatime.png" alt="logo">
     <nav>
-      <a href="./index.html">Início</a>
+      <a href="./index.html" >Início</a>
       <a href="./index.html">Menu</a>
       <a href="./index.html">Tabela</a>
       <i class="fa-solid fa-magnifying-glass"></i>
       <i class="fa-solid fa-cart-shopping"></i>
-      <a href="./formulario.html">Cadastrar</a>
+      <a href="./index.html" class="botãoVermelho">Voltar</a>
     </nav>
   </header>
-  <main>
-    <h2>Feedback</h2>
+  <main id="cadastro">
+    <h2>Cadastro</h2>
     <form method="post" action="https://652d071ef9afa8ef4b26a631.mockapi.io/posts" target="_blank">
       <label for="name">Nome:</label>
-      <input type="text" id="name" name="name" required placeholder="Digite seu nome:">
+      <input type="text" id="name" name="name" required placeholder="seu nome">
 
       <label for="city">Cidade:</label>
-      <input type="text" id="city" name="city" required placeholder="Digite sua Cidade:">
+      <input type="text" id="city" name="city" required placeholder="sua cidade">
 
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Digite seu Email:">
+      <input type="email" id="email" name="email" placeholder="seu e-mail">
 
       <label for="age">Idade:</label>
-      <input type="number" id="age" name="age" required placeholder="Digite sua Idade:">
+      <input type="number" id="age" name="age" required placeholder="sua idade">
 
       <label for="hobby">Feedback:</label>
       <textarea id="hobby" name="hobby"></textarea>
 
       <label for="submit" id="submit"></label>
-      <input type="submit" value="Enviar" class="botao">
+      <input type="submit" value="Enviar" class="botãoVermelho">
     </form>
   </main>
   <footer>

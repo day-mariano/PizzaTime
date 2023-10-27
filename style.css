@@ -1,49 +1,4 @@
-body {
-  background: #FFF;
-  font-family: Fira Sans;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 0;
-}
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-}
-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-a {
-  text-decoration: none;
-  color: #00240F;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 1rem;
-}
-a:hover {
-  color: #EC0000;
-}
-.botãoVermelho {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background: #EC0000;
-  padding: 10px 24px;
-  color: white;
-  font-size: 16px;
-  border-radius: 25px;
-  max-width: 200px;
-}
-.botãoVermelho:hover {
-  color: white;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
+
 hero {
   max-width: 1440px;
   display: flex;
@@ -149,9 +104,6 @@ hero img {
   font-size: 16px;
 }
 
-.divPizza button {
-  border-style: none;
-}
 .wrapperTabela {
   width: 100%;
   padding: 2rem;
@@ -180,25 +132,6 @@ td {
   border-radius: 8px;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 14px;
-  width: 100%;
-  margin-top: 2rem;
-}
-.navFooter{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  justify-content: space-around;
-
-}
-footer p {
-  color: #333;
-}
 @media (max-width:700px) {
   hero {
     display: none;
