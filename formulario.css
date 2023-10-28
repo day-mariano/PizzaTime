@@ -31,7 +31,7 @@ label {
   color: #00240F;
 }
 
-input {
+input, textarea {
   width: 200px;
   font-size: 16px;
   border-radius: 8px;
@@ -39,4 +39,10 @@ input {
   border-width: 1px;
   margin-left: 8px;
   padding: 8px;
+}
+
+@media (max-width:700px) {
+  label {
+    flex-direction: column;
+  }
 }
